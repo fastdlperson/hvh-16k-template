@@ -9,33 +9,35 @@ The purpose of this repository is to provide an easy drag-and-drop linux 16k ser
 
 1. **Download and extract** `main.zip` from [Releases](https://github.com/fastdlperson/hvh-16k-template/releases).
 
-2. **Right click and Run and follow** `MAIN.ps1`.
+2. **Right click and Run** `MAIN.ps1`.
+- When it is compiling the plugins click enter for all three plugins
+- I recommend putting `Y` for everything
 
-3. **Edit server settings**  
+4. **Edit server settings**  
     - Open `cfg/server.cfg` to change the server name and other settings (such as advertisement timing).
 
-4. **Configure the RankMe database**  
+5. **Configure the RankMe database**  
     - Open `addons/sourcemod/configs/databases.cfg` to change RankMe database credentials. This is required for RankMe to work.  
     - If you have enough storage or prefer easier database editing, use SQLite instead.  
     To do this, open `addons/sourcemod/configs/kento.rankme.cfg`, search for `rankme_mysql`, and change its value to `0`.
 
-5. **Change RankMe name and color**  
+6. **Change RankMe name and color**  
     - Open `addons/sourcemod/translations/kento.rankme.phrases.txt` to change RankMe colors and name.
 
-6. **Change admin list**  
+7. **Change admin list**  
     - Open `addons/sourcemod/configs/admins_simple.ini` and change the admin list to your liking.  
     Be sure to read [Adding Admins (SourceMod)](https://wiki.alliedmods.net/Adding_Admins_(SourceMod)).
 
-7. **Edit advertisements**  
+8. **Edit advertisements**  
     - Open `addons/sourcemod/configs/advertisements.txt` to change advertisements.
 
-8. **(Optional) Enable discord relay**  
+9. **(Optional) Enable discord relay**  
     - Move `discord_api.smx` and `discordrelay.smx` from `addons/sourcemod/plugins/disabled` to `addons/sourcemod/plugins`.  
     Edit `cfg/sourcemod/discordrelay.cfg` to set up discord csgo chat and RCON relay.
 
-9. **Drag and drop the csgo folder into your ftp or server and click yes to overwrite**
+10. **Drag and drop the csgo folder into your ftp or server and click yes to overwrite**
 
-10. **Profit?** 
+11. **Profit?** 
 
 ## Isuses
 Have a Isuse? Dm me on discord: `shibabyte`
