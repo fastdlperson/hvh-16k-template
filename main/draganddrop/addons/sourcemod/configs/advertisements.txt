@@ -1,0 +1,42 @@
+// Advertisements 2.1
+// by Tsunami
+//
+// Types
+// -----
+// center: Center message
+// chat: Chat message
+// hint: Hint message
+// menu: Menu message
+// top: Top message
+//
+// Flags (optional)
+// -----
+// Accepts flags of admins that will not see the advertisement.
+// When omitted everyone will see the advertisement.
+// When left empty only admins will see the advertisement.
+
+"Advertisements"
+{
+    "1"
+    {
+        "chat"			"{purple}[nebula]{default} join our discord: {purple}https://discord.gg/example"
+//	    "hint"			"join our discord: https://discord.gg/3A9vgfvgR2"
+    }
+    "2"
+    {
+        "chat"			"{purple}[nebula] placeholder"
+//	    "hint"			"join our discord: https://discord.gg/3A9vgfvgR2"
+    }
+//    "2"
+//    {
+//        "chat"			"{green}[onshot]{default} Do {green}!servers{default} in chat to see our other public servers{default}."
+//    }
+//     "3"
+//     {
+//         "chat"			"{green}[onshot]{default} Automatic restarts are every 12:00 pm EST{default}."
+//     }
+//     "4"
+//     {
+//         "chat"			"{green}[onshot]{default} Want to turn off/on AWP? Type {green}!awp{default} in chat to start a vote."
+//     }
+}
