@@ -7,31 +7,33 @@ The purpose of this repository is to provide an easy drag-and-drop linux 16k ser
 
 ## Instructions
 
-1. **Run and follow** `MAIN.ps1`.
+1. **Download and extract** `main.zip` from [Releases](https://github.com/fastdlperson/hvh-16k-template/releases).
 
-2. **Edit server settings**  
+2. **Run and follow** `MAIN.ps1`.
+
+3. **Edit server settings**  
     - Open `cfg/server.cfg` to change the server name and other settings (such as advertisement timing).
 
-3. **Configure the RankMe database**  
+4. **Configure the RankMe database**  
     - Open `addons/sourcemod/configs/databases.cfg` to change RankMe database credentials. This is required for RankMe to work.  
     - If you have enough storage or prefer easier database editing, use SQLite instead.  
     To do this, open `addons/sourcemod/configs/kento.rankme.cfg`, search for `rankme_mysql`, and change its value to `0`.
 
-4. **Change RankMe name and color**  
+5. **Change RankMe name and color**  
     - Open `addons/sourcemod/translations/kento.rankme.phrases.txt` to change RankMe colors and name.
 
-5. **Change admin list**  
+6. **Change admin list**  
     - Open `addons/sourcemod/configs/admins_simple.ini` and change the admin list to your liking.  
     Be sure to read [Adding Admins (SourceMod)](https://wiki.alliedmods.net/Adding_Admins_(SourceMod)).
 
-6. **Edit advertisements**  
+7. **Edit advertisements**  
     - Open `addons/sourcemod/configs/advertisements.txt` to change advertisements.
 
-7. **(Optional) Enable discord relay**  
+8. **(Optional) Enable discord relay**  
     - Move `discord_api.smx` and `discordrelay.smx` from `addons/sourcemod/plugins/disabled` to `addons/sourcemod/plugins`.  
     Edit `cfg/sourcemod/discordrelay.cfg` to set up discord csgo chat and RCON relay.
 
-8. **Profit?** 
+9. **Profit?** 
 
 ## Isuses
 Have a Isuse? Dm me on discord: `shibabyte`
