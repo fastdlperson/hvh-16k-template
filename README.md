@@ -10,8 +10,8 @@ The purpose of this repository is to provide an easy drag-and-drop linux 16k ser
 1. **Download and extract** `main.zip` from [Releases](https://github.com/fastdlperson/hvh-16k-template/releases).
 
 2. **Right click and Run** `MAIN.ps1`.
-- When it is compiling the plugins click enter for all three plugins
-- I recommend putting `Y` for everything
+    - When it is compiling the plugins click enter for all three plugins
+    - I recommend putting `Y` for everything
 
 4. **Edit server settings**  
     - Open `cfg/server.cfg` to change the server name and other settings (such as advertisement timing).
