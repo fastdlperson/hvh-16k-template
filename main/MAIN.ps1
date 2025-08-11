@@ -28,8 +28,8 @@ if ([string]::IsNullOrWhiteSpace($userInput)) {
 $targetDir = Join-Path $scriptDir 'DONOTRENAME'
 $originalDir = Join-Path $targetDir 'original'
 
-# destination: scriptDir\draganddrop\addons\sourcemod\plugins
-$destFull = Join-Path $scriptDir 'draganddrop'
+# destination: scriptDir\csgo\addons\sourcemod\plugins
+$destFull = Join-Path $scriptDir 'csgo'
 $destFull = Join-Path $destFull 'addons'
 $destFull = Join-Path $destFull 'sourcemod'
 $destFull = Join-Path $destFull 'plugins'

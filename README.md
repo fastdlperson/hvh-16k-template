@@ -33,7 +33,9 @@ The purpose of this repository is to provide an easy drag-and-drop linux 16k ser
     - Move `discord_api.smx` and `discordrelay.smx` from `addons/sourcemod/plugins/disabled` to `addons/sourcemod/plugins`.  
     Edit `cfg/sourcemod/discordrelay.cfg` to set up discord csgo chat and RCON relay.
 
-9. **Profit?** 
+9. **Drag and drop the csgo folder into your ftp or server and click yes to overwrite**
+
+10. **Profit?** 
 
 ## Isuses
 Have a Isuse? Dm me on discord: `shibabyte`
