@@ -18,7 +18,7 @@ if (Test-Path -Path $colorsPath -PathType Leaf) {
 }
 
 # ---------------- Prompt for replacement text ----------------
-$userInput = Read-Host "Enter replacement text (example: `\x03[shiba]\x01`). PLEASE have \x01 at the edit else all of your colors will mess up. Leave empty to cancel"
+$userInput = Read-Host "Enter replacement text (example: `\x03[shiba]\x01`). PLEASE have \x01 at the end else all of your colors will mess up. Leave empty to cancel"
 if ([string]::IsNullOrWhiteSpace($userInput)) {
     Write-Host "No input provided � exiting." -ForegroundColor Yellow
     exit 0
