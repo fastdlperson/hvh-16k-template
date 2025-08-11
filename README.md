@@ -1,4 +1,4 @@
-# Dillinger
+# hvh-16k-template
 
 This is a drag and drop for a **linux** hvh 16k csgo server
 
