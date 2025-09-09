@@ -7,7 +7,7 @@ The purpose of this repository is to provide an easy drag-and-drop linux 16k ser
 
 ## Instructions
 
-1. **Download and extract** `main.zip` from [Releases](https://github.com/fastdlperson/hvh-16k-template/releases).
+1. **Download and extract** `Source code` from [Releases](https://github.com/fastdlperson/hvh-16k-template/releases).
 
 2. **Right click and Run** `MAIN.ps1`.
     - When it is compiling the plugins click `enter` for all three plugins
