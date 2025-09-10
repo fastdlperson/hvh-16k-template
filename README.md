@@ -55,9 +55,9 @@ Have an issue? DM me on Discord: `shibabyte`
 ## Credits
 | Name          | Contribution                          |
 |---------------|---------------------------------------|
-| **shiba**     | Me, set everything up and made this |
-| **the1andrew** | Paid for the hosting of nebula |
-| **adam** | giving me some useful plugins |
+| **[shiba](https://github.com/retree1)**     | Me, set everything up and made this |
+| **[the1andrew](https://www.youtube.com/@JohnSmith-m3q5p)** | Paid for the hosting of nebula |
+| **[adam](https://github.com/almostmeth)** | Giving me some useful plugins |
 
 ## License
 [MIT](./LICENSE)
