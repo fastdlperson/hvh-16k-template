@@ -22,7 +22,7 @@ These will mainly be US vps providers, because im from the US and used all of th
 - No DDoS protection
 - Not alot of loctaions
 
-## 3. [OVH](https://ovhcloud.com/vps)
+## 3. [OVH](https://us.ovhcloud.com/vps/)
 **Pros**
 - It's OVH
 - Has a ton of loctaions
