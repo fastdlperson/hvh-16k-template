@@ -48,7 +48,7 @@ My recommended VPS providers are [Here!](./RECOMMENDATIONS.md)
 10. **Profit?**
 
 ## Issues
-Have an issue? DM me on Discord: `shibabyte`  
+Have an issue? DM me on Discord: `shibabyte` or create an [issue](https://github.com/fastdlperson/hvh-16k-template/issues)
 
 ⚠️ I’m not obligated to provide support. If I receive too many requests, I may remove this section without notice.
 
