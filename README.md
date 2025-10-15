@@ -50,7 +50,7 @@ My recommended VPS providers are [Here!](./RECOMMENDATIONS.md)
    - Click **Yes** to overwrite.
      
 12. **You'll need to replace the server's** `libgcc_s.so.1` with your system's.
-    - So I would just do this `sudo dpkg --add-architecture i386 && sudo apt update && sudo apt install libcurl4:i386 libtinfo6:i386 libncurses6:i386 lib32stdc++6 lib32gcc-s1`
+    - So I would just do this `sudo dpkg --add-architecture i386 && sudo apt update && sudo apt install -y libcurl4:i386 libtinfo6:i386 libncurses6:i386 lib32stdc++6 lib32gcc-s1`
     - then `cd` to your csgo bin's server, like this `cd /var/lib/pterodactyl/volumes/7d1efcf4-caa1-4761-b19b-4febaebbdec2/bin
 `
     - then `mv libgcc_s.so.1 old.libgcc_s.so.1`
