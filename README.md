@@ -2,7 +2,7 @@
 
 # hvh-16k-template
 
-This is a drag-and-drop **LINUX** hvh 16k csgo server
+This is a drag-and-drop **LINUX** hvh 16k csgo server, I will be using Ubuntu 22.04 as Ubuntu is easier and you will not have to manually setup the panel <3
 
 ## Why?
 The purpose of this repository is to provide an easy drag-and-drop linux 16k server. I want people to host their own servers with ease, with only their firewall and configuration files needing changes. There are many improvements that can be made, like replacing RankMe with Core or setting up RankMe scoring better, but at its base, it's perfect the way it is
@@ -50,7 +50,7 @@ My recommended VPS providers are [Here!](./RECOMMENDATIONS.md)
    - Click **Yes** to overwrite.
      
 12. **You'll need to replace the server's** `libgcc_s.so.1` with your system's.
-    - So I would just do this if your on Ubuntu `sudo apt install libcurl4:i386 libtinfo6:i386 libncurses6:i386 lib32stdc++6 lib32gcc-s1`
+    - So I would just do this `sudo apt install libcurl4:i386 libtinfo6:i386 libncurses6:i386 lib32stdc++6 lib32gcc-s1`
     - then `cd` to your csgo bin's server, like this `cd /var/lib/pterodactyl/volumes/7d1efcf4-caa1-4761-b19b-4febaebbdec2/bin
 `
     - then `mv libgcc_s.so.1 old.libgcc_s.so.1`
