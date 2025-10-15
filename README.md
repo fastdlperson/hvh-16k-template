@@ -1,6 +1,8 @@
+# THIS IS A LINUX SERVER
+
 # hvh-16k-template
 
-This is a drag-and-drop **linux** hvh 16k csgo server
+This is a drag-and-drop **LINUX** hvh 16k csgo server
 
 ## Why?
 The purpose of this repository is to provide an easy drag-and-drop linux 16k server. I want people to host their own servers with ease, with only their firewall and configuration files needing changes. There are many improvements that can be made, like replacing RankMe with Core or setting up RankMe scoring better, but at its base, it's perfect the way it is
