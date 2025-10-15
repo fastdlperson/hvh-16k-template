@@ -12,42 +12,50 @@ My recommended VPS providers are [Here!](./RECOMMENDATIONS.md)
 
 ## Instructions
 
-1. **Download and extract** the `zip` file from [Releases](https://github.com/fastdlperson/hvh-16k-template/releases).
+1. **Setup the server** with **[pterodactyl-installer](https://github.com/pterodactyl-installer/pterodactyl-installer)** if you want a easy setup
 
-2. **Run the setup script**  
+3. **Download and extract** the `zip` file from [Releases](https://github.com/fastdlperson/hvh-16k-template/releases).
+
+4. **Run the setup script**  
    - Right-click and run `MAIN.ps1`.  
    - When compiling plugins, press **Enter** for all three prompts.  
    - For most options, I recommend answering **Y**.
 
-3. **Edit server settings**  
+5. **Edit server settings**  
    - Open `cfg/server.cfg` to change the server name and other options (e.g., advertisement timing).
 
-4. **Configure the RankMe database**  
+6. **Configure the RankMe database**  
    - Edit `addons/sourcemod/configs/databases.cfg` to update RankMe database credentials.  
    - For easier setup, you can use SQLite:  
      - Open `addons/sourcemod/configs/kento.rankme.cfg`  
      - Find `rankme_mysql` and set its value to `0`.
 
-5. **Customize RankMe name and colors**  
+7. **Customize RankMe name and colors**  
    - Open `addons/sourcemod/translations/kento.rankme.phrases.txt`.
 
-6. **Set up admin list**  
+8. **Set up admin list**  
    - Edit `addons/sourcemod/configs/admins_simple.ini` to add admins.  
    - Reference: [Adding Admins (SourceMod)](https://wiki.alliedmods.net/Adding_Admins_(SourceMod)).
 
-7. **Edit advertisements**  
+9. **Edit advertisements**  
    - Open `addons/sourcemod/configs/advertisements.txt`.
 
-8. **(Optional) Enable Discord relay**  
+10. **(Optional) Enable Discord relay**  
    - Move `discord_api.smx` and `discordrelay.smx` from  
      `addons/sourcemod/plugins/disabled` → `addons/sourcemod/plugins`.  
    - Edit `cfg/sourcemod/discordrelay.cfg` to configure CS:GO to Discord chat and RCON relay.
 
-9. **Deploy to server**  
+11. **Deploy to server**  
    - Drag and drop the `csgo` folder into your FTP or server directory.  
    - Click **Yes** to overwrite.
+     
+12. **You'll need to replace the server's** `libgcc_s.so.1` with your system's.
+    - So I would just do this if your on Ubuntu `sudo apt install libcurl4:i386 libtinfo6:i386 libncurses6:i386 lib32stdc++6 lib32gcc-s1`
+    - then `cd` to your csgo bin's server,like this `cd /var/lib/pterodactyl/volumes/7d1efcf4-caa1-4761-b19b-4febaebbdec2/bin
+`
+    - then `mv libgcc_s.so.1 old.libgcc_s.so.1`
 
-10. **Profit?**
+14. **Profit?**
 
 ## Issues
 Have an issue? DM me on Discord: `shibabyte` or create an [issue](https://github.com/fastdlperson/hvh-16k-template/issues)
