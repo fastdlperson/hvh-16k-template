@@ -26,7 +26,7 @@ My recommended VPS providers are [Here!](./RECOMMENDATIONS.md)
 
 6. **Configure the RankMe database**  
    - Edit `addons/sourcemod/configs/databases.cfg` to update RankMe database credentials.  
-   - For easier setup, you can use SQLite:  
+   - **For easier setup, you can use SQLite**:  
      - Open `addons/sourcemod/configs/kento.rankme.cfg`  
      - Find `rankme_mysql` and set its value to `0`.
 
