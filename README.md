@@ -38,7 +38,7 @@ My recommended VPS providers are [Here!](./RECOMMENDATIONS.md)
    - Reference: [Adding Admins (SourceMod)](https://wiki.alliedmods.net/Adding_Admins_(SourceMod)).
 
 9. **Edit advertisements**  
-   - Open `addons/sourcemod/configs/advertisements.txt`.
+   - Open `addons/sourcemod/configs/advertisements.txt`, [colors](https://github.com/PremyslTalich/ColorVariables)
 
 10. **(Optional) Enable Discord relay**  
    - Move `discord_api.smx` and `discordrelay.smx` from  
