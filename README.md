@@ -55,7 +55,7 @@ My recommended VPS providers are [Here!](./RECOMMENDATIONS.md)
 `
     - then `mv libgcc_s.so.1 old.libgcc_s.so.1`
 
-14. **Profit?**
+13. **Profit?**
 
 ## Issues
 Have an issue? DM me on Discord: `shibabyte` or create an [issue](https://github.com/fastdlperson/hvh-16k-template/issues)
