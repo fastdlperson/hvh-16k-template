@@ -20,7 +20,7 @@ if (Test-Path -Path $colorsPath -PathType Leaf) {
 # ---------------- Prompt for replacement text ----------------
 $userInput = Read-Host "Enter replacement text (example: `\x03[shiba]\x01`). PLEASE have \x01 at the end else all of your colors will mess up. Leave empty to cancel"
 if ([string]::IsNullOrWhiteSpace($userInput)) {
-    Write-Host "No input provided ï¿½ exiting." -ForegroundColor Yellow
+    Write-Host "No input provided." -ForegroundColor Yellow
     exit 0
 }
 
@@ -74,7 +74,7 @@ if (Test-Path -Path $originalDir -PathType Container) {
         Write-Host "No originals were copied (none of the expected files found in 'original')." -ForegroundColor Yellow
     }
 } else {
-    Write-Host "`nNo 'original' folder found ï¿½ will operate on .sp files already in DONOTRENAME (if present)." -ForegroundColor Yellow
+    Write-Host "`nNo 'original' folder found ??? will operate on .sp files already in DONOTRENAME (if present)." -ForegroundColor Yellow
 }
 
 # ---------------- Build list of files currently present in DONOTRENAME to operate on ----------------
