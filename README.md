@@ -1,7 +1,7 @@
 # THIS IS A LINUX SERVER
 
 # hvh-16k-template
-
+this is messy
 This is a drag-and-drop **LINUX** hvh 16k csgo server, I will be using Ubuntu 22.04 as Ubuntu is easier and you will not have to manually setup the panel <3
 
 ## Why?
