@@ -14,7 +14,7 @@ My recommended VPS providers are [Here!](./RECOMMENDATIONS.md)
 
 1. **Setup the server** with **[pterodactyl-installer](https://github.com/pterodactyl-installer/pterodactyl-installer)** if you want a easy setup
 
-3. **Download and extract** the `zip` file from [Releases](https://github.com/fastdlperson/hvh-16k-template/releases).
+3. **Clone and extract** the `zip` file here: [main.zip](https://github.com/fastdlperson/hvh-16k-template/archive/refs/heads/main.zip).
 
 4. **Run the setup script**  
    - Right-click and run `MAIN.ps1`.  
