@@ -68,6 +68,7 @@ Have an issue? DM me on Discord: `shibabyte` or create an [issue](https://github
 | **[shiba](https://github.com/retree1)**     | Me, set everything up and made this |
 | **[the1andrew](https://www.youtube.com/@JohnSmith-m3q5p)** | Paid for the hosting of nebula |
 | **[adam](https://github.com/almostmeth)** | Giving me some useful plugins |
+and the people who made all the plugins.
 
 ## License
-[MIT](./LICENSE)
+Removed license because I forgot that the plugins, sourcemod, etc have licenses and I do not own them.
