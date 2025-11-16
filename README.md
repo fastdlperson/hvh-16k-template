@@ -15,48 +15,50 @@ My recommended VPS providers are [Here!](./RECOMMENDATIONS.md)
 
 1. **Setup the server** with **[pterodactyl-installer](https://github.com/pterodactyl-installer/pterodactyl-installer)** if you want a easy setup
 
-3. **Clone and extract** the `zip` file here: [main.zip](https://github.com/fastdlperson/hvh-16k-template/archive/refs/heads/main.zip).
+2. **Clone and extract** the `zip` file here: [main.zip](https://github.com/fastdlperson/hvh-16k-template/archive/refs/heads/main.zip).
 
-4. **Run the setup script**  
+3. **Run the setup script**  
    - Right-click and run `MAIN.ps1`.  
    - When compiling plugins, press **Enter** for all three prompts.  
    - For most options, I recommend answering **Y**.
 
-5. **Edit server settings**  
+4. **Edit server settings**  
    - Open `cfg/server.cfg` to change the server name and other options (e.g., advertisement timing).
 
-6. **(Optional) MySQL instead of SQLite for RankMe**  
-   - Open `addons/sourcemod/configs/kento.rankme.cfg`  
-   - Change `rankme_mysql` to `1`.
-   - Edit the bottom of `addons/sourcemod/configs/databases.cfg` to update RankMe database credentials. 
-   - [`database.cfg` Example](./main/example_databases.cfg)
-
-7. **Customize RankMe name and colors**  
+5. **Customize RankMe name and colors**  
    - Open `addons/sourcemod/translations/kento.rankme.phrases.txt`.
 
-8. **Set up admin list**  
+6. **Set up admin list**  
    - Edit `addons/sourcemod/configs/admins_simple.ini` to add admins.  
    - Reference: [Adding Admins (SourceMod)](https://wiki.alliedmods.net/Adding_Admins_(SourceMod)).
 
-9. **Edit advertisements**  
+7. **Edit advertisements**  
    - Open `addons/sourcemod/configs/advertisements.txt`, [colors](https://raw.githubusercontent.com/KissLick/ColorVariables/master/csgo%20colors.png)
 
-10. **(Optional) Enable Discord relay**  
-   - Move `discord_api.smx` and `discordrelay.smx` from  
-     `addons/sourcemod/plugins/disabled` → `addons/sourcemod/plugins`.  
-   - Edit `cfg/sourcemod/discordrelay.cfg` to configure CS:GO to Discord chat and RCON relay.
-
-11. **Deploy to server**  
+8. **Deploy to server**  
    - Drag and drop the `csgo` folder into your FTP or server directory.  
    - Click **Yes** to overwrite.
      
-12. **You'll need to replace the server's** `libgcc_s.so.1` with your system's.
+9. **You'll need to replace the server's** `libgcc_s.so.1` with your system's.
     - So I would just do this `sudo dpkg --add-architecture i386 && sudo apt update && sudo apt install -y libcurl4:i386 libtinfo6:i386 libncurses6:i386 lib32stdc++6 lib32gcc-s1`
     - then `cd` to your pterodactyl server's bin, like this `cd /var/lib/pterodactyl/volumes/SERVER_ID_HERE/bin
 `
     - then `mv libgcc_s.so.1 old.libgcc_s.so.1`
 
-13. **Profit?**
+10. **Profit?**
+
+## Optional Instructions
+
+1. **(Optional) Enable Discord relay**  
+   - Move `discord_api.smx` and `discordrelay.smx` from  
+     `addons/sourcemod/plugins/disabled` → `addons/sourcemod/plugins`.  
+   - Edit `cfg/sourcemod/discordrelay.cfg` to configure CS:GO to Discord chat and RCON relay.
+
+2. **(Optional) MySQL instead of SQLite for RankMe**  
+   - Open `addons/sourcemod/configs/kento.rankme.cfg`  
+   - Change `rankme_mysql` to `1`.
+   - Edit the bottom of `addons/sourcemod/configs/databases.cfg` to update RankMe database credentials. 
+   - [`database.cfg` Example](./main/example_databases.cfg)
 
 ## Issues
 Have an issue? DM me on Discord: `shibabyte` or create an [issue](https://github.com/fastdlperson/hvh-16k-template/issues)
