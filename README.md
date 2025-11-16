@@ -29,7 +29,7 @@ My recommended VPS providers are [Here!](./RECOMMENDATIONS.md)
    - Open `addons/sourcemod/configs/kento.rankme.cfg`  
    - Change `rankme_mysql` to `1`.
    - Edit the bottom of `addons/sourcemod/configs/databases.cfg` to update RankMe database credentials. 
-   - [`database.cfg` Example](./main/csgo/addons/sourcemod/configs/example_databases.cfg)
+   - [`database.cfg` Example](./main/example_databases.cfg)
 
 7. **Customize RankMe name and colors**  
    - Open `addons/sourcemod/translations/kento.rankme.phrases.txt`.
