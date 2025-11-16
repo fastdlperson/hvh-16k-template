@@ -25,11 +25,11 @@ My recommended VPS providers are [Here!](./RECOMMENDATIONS.md)
 5. **Edit server settings**  
    - Open `cfg/server.cfg` to change the server name and other options (e.g., advertisement timing).
 
-6. **Configure the RankMe database**  
-   - Edit `addons/sourcemod/configs/databases.cfg` to update RankMe database credentials.  
-   - **For easier setup, you can use SQLite**:  
-     - Open `addons/sourcemod/configs/kento.rankme.cfg`  
-     - Find `rankme_mysql` and set its value to `0`.
+6. **(Optional) MySQL instead of SQLite for RankMe**  
+   - Open `addons/sourcemod/configs/kento.rankme.cfg`  
+   - Change `rankme_mysql` to `1`.
+   - Edit the bottom of `addons/sourcemod/configs/databases.cfg` to update RankMe database credentials. 
+   - [`database.cfg` Example](./main/csgo/addons/sourcemod/configs/example_databases.cfg)
 
 7. **Customize RankMe name and colors**  
    - Open `addons/sourcemod/translations/kento.rankme.phrases.txt`.
