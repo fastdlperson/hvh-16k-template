@@ -12,15 +12,31 @@ These will mainly be US vps providers, because im from the US and used all of th
 - No DDoS protection
 - 2 loctaions
 
-## 2. [FREAKHOSTING](https://freakhosting.com/)
+## 2. [NFOservers Managed or Unmanaged VDS](https://www.nfoservers.com/)
 **Pros**
-- Has a ton of loctaions
+- Reliable uptime
+- Great support
+- Cheap (if you get it on a deal otherwise its pretty pricey)
+- No lag like the others ive used
+- Can be moved to a new location (unmanaged)
+- [more here](https://forums.nfoservers.com/viewtopic.php?t=4559)
 
 **Cons**
-- Pricey
-- **major lag issue last time i used i switched to nfo managed**
+- Not the best DDoS protection
+- Bad panel for Managed
 
-## 3. [OVH](https://us.ovhcloud.com/vps/)
+## 3. [Physgun (P-VPS-4)](https://physgun.com/vps)
+**Pros**
+- Cheap
+- Reliable uptime  
+- DDoS protection
+- Great customer support
+
+**Cons**
+- Not alot of loctaions
+- No EU loctaions unless you consider the UK.
+
+## 4. [OVH](https://us.ovhcloud.com/vps/)
 **Pros**
 - Reliable uptime
 - Cheap
@@ -29,16 +45,11 @@ These will mainly be US vps providers, because im from the US and used all of th
 **Cons**
 - **major lag issue last time i used i switched to freakhosting**
 
-## 3. [NFOservers Managed or Unmanaged VDS]
+## 5. [FREAKHOSTING](https://freakhosting.com/)
 **Pros**
-- Great support
-- No lag like the others ive used
-- Can be moved to a new location
-- [more here](https://forums.nfoservers.com/viewtopic.php?t=4559)
+- Reliable uptime
+- Has a ton of loctaions
 
 **Cons**
-- Not the best DDoS protection
-- Bad panel for Managed
-
-## 4. [NFOservers Game Server]
-- The worst game server ive ever used
+- Pricey
+- **major lag issue last time i used i switched to nfo managed**
