@@ -1,3 +1,5 @@
+# UPDATE: csgo moved to another appid and changed you may need to remove `nolobbyreservation.smx`, I can not verify because i don't have a server to test
+
 # THIS IS A LINUX SERVER
 
 # hvh-16k-template
