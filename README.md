@@ -1,4 +1,5 @@
-# UPDATE: csgo moved to another appid and changed you may need to remove `nolobbyreservation.smx`, I can not verify because i don't have a server to test
+# UPDATE: csgo moved to another appid and changed you may need to remove `nolobbyreservation.smx`, I can not verify because i don't have a server to test 
+also if people are on the cs2 csgo legacy branch it may break for them but its likely that branch its going to be removed
 
 # THIS IS A LINUX SERVER
 
