@@ -1,4 +1,4 @@
-# UPDATE: csgo moved to another appid and changed you may need to remove `nolobbyreservation.smx`, I can not verify because i don't have a server to test. Please DM me on dc @ [`shibabyte`](https://github.com/fastdlperson/hvh-16k-template/tree/main?tab=readme-ov-file#issues)
+# UPDATE: csgo moved to another appid and changed you may need to remove `nolobbyreservation.smx`, I can not verify because i don't have a server to test. Please DM me on dc @ [`shibabyte`](https://github.com/fastdlperson/hvh-16k-template/tree/main?tab=readme-ov-file#issues) if you want to help me update this guide.
 also if people are on the cs2 csgo legacy branch it may break for them but its likely that branch its going to be removed
 
 # THIS IS A LINUX SERVER
