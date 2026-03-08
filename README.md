@@ -1,5 +1,5 @@
 # UPDATE:
-install https://github.com/alterra-lol/engpatch or change the appid to the one on the steam page
+install https://github.com/alterra-lol/engpatch or https://github.com/eonexdev/csgo-sv-fix-engine or change the appid to the one on the steam page
 
 # THIS IS A LINUX SERVER
 
